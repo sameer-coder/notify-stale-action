@@ -1,0 +1,20 @@
+{
+  "name": "notify-stale-action",
+  "version": "1.0.0",
+  "description": "Github action which notifies if new code changes are not yet released",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameer-coder/notify-stale-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameer-coder/notify-stale-action/issues"
+  },
+  "homepage": "https://github.com/sameer-coder/notify-stale-action#readme"
+}
