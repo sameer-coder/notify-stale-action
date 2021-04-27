@@ -15,7 +15,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Check if there's a release pending
         id: notify
-        uses: sameer-coder/github-action-notify-release@main
+        uses: nearform/github-action-notify-release@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           days-to-stale-release: 7
