@@ -18,4 +18,4 @@ jobs:
         uses: sameer-coder/github-action-notify-release@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          days-to-stale-release: 7
+          days-to-stale-release: 0
