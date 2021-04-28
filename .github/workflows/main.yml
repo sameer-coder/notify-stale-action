@@ -9,13 +9,9 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.2.0
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
       - name: Notify pending release
         id: notify
         uses: sameer-coder/github-action-notify-release@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          days-to-stale-release: 0
+          days-to-ignore: 0
