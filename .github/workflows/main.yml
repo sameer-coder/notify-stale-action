@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Notify pending release
         id: notify
-        uses: sameer-coder/github-action-notify-release@main
+        uses: nearform/github-action-notify-release@pending-release
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           days-to-ignore: 0
