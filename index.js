@@ -9,7 +9,7 @@ function add(a,b){
     return a+b;
 }
 
-
+add(5+5);
 
 function sub(a,b){
     return a+b;
