@@ -1,4 +1,4 @@
-name: notify-stale-action
+name: notify-release
 on:
   workflow_dispatch:
     branches:
@@ -9,9 +9,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify pending release
-        id: notify
-        uses: nearform/github-action-notify-release@pending-release
+      - uses: nearform/github-action-notify-release@v1.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-days: 0
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          stale-days: 7
