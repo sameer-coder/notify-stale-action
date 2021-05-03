@@ -12,4 +12,4 @@ jobs:
       - uses: nearform/github-action-notify-release@v1.0.1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
-          stale-days: 7
+          stale-days: 1
