@@ -15,4 +15,6 @@ function sub(a,b){
     return a+b;
 }
 
+sub(9,5)
+
 sayHello();
