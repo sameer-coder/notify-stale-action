@@ -9,7 +9,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: nearform/github-action-notify-release@feat-head-warning
+      - uses: nearform/github-action-notify-release@main
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           stale-days: 1
